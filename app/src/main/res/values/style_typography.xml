@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- text style -->
+    <!-- primary                : primary heading & text   -->
+    <!-- secondary              : secondary_text    -->
+    <!-- secondary_heading      : secondary_heading -->
+
+    <!-- REGULAR -->
+    <!-- 15 -->
+    <style name="text_R15_primary" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_size_15</item>
+        <item name="android:fontFamily">@font/muli_bold</item><!--Avenir Book-->
+    </style>
+
+    <!-- MEDIUM -->
+    <!-- 18 -->
+    <style name="text_M18_primary" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_size_18</item>
+        <item name="android:fontFamily">@font/muli_bold</item><!--Avenir Medium-->
+    </style>
+
+    <!-- BOLD -->
+    <!-- 24 -->
+    <style name="text_B24_primary" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_size_24</item>
+        <item name="android:fontFamily">@font/muli_extrabold</item><!--VentiVB&P-Ultra-->
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- 9 -->
+    <style name="text_B9_primary" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_size_9</item>
+        <item name="android:fontFamily">@font/muli_bold</item><!--Avenir Heavy-->
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- 12 -->
+    <style name="text_B12_primary" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_size_12</item>
+        <item name="android:fontFamily">@font/muli_bold</item><!--Avenir Heavy-->
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- 15 -->
+    <style name="text_B15_primary" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_size_15</item>
+        <item name="android:fontFamily">@font/muli_bold</item><!--Avenir Heavy-->
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- 12 -->
+    <style name="text_B12_secondary" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_size_12</item>
+        <item name="android:fontFamily">@font/muli_black</item><!--VentiVB&P-Black-->
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- 14 -->
+    <style name="text_B14_secondary" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:fontFamily">@font/muli_extrabold</item><!--VentiVB&P-Ultra-->
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- 15 -->
+    <style name="text_B15_secondary" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_size_15</item>
+        <item name="android:fontFamily">@font/muli_extrabold</item><!--VentiVB&P-Ultra-->
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- ITALIC -->
+    <!-- 15 -->
+    <style name="text_I15_primary" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_size_15</item>
+        <item name="android:fontFamily">@font/muli_bold</item><!--Avenir-Oblique-->
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- OTHERS -->
+    <style name="text_button" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:fontFamily">@font/muli_bold</item><!--Avenir Heavy-->
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+</resources>
